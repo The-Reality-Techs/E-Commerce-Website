@@ -48,11 +48,14 @@
         </div>
     </nav>
 
-
+<!--    image block   -->
     <div class="pink ">
         <img src="static/images/red.jpg" alt="" class="mainImage">
     </div>
-
+<div class="text">
+    <h1><span class="heading">LE STYLEST</span></h1>
+    <h3><span class = "subHeading">-----WEAR YOUR DRESS----</span></h3>
+</div>
 
 
 </header>

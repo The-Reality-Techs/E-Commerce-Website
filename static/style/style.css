@@ -61,7 +61,7 @@ body {
     background-color: rgba(120,120,120,0.001);
 }
 .mainImage {
-    height:100vh;
+    height:100%;
     position:absolute;
 }
 nav {
@@ -90,15 +90,44 @@ nav {
     color : black;
 }
 
-.pink {
-    background-color:#f5c1db;
-    min-height:100vh;
-    margin-top:0px;
-    overflow: hidden;
-    padding:0;
-    float:left;
-    width:50vw;
-}
+/*.pink {*/
+/*    background-color:#f5c1db;*/
+/*    min-height:100vh;*/
+/*    margin-top:0px;*/
+/*    overflow: hidden;*/
+/*    padding:0;*/
+/*    float:left;*/
+/*    width:50vw;*/
+/*}*/
 header {
   background-color: lightgrey;
+}
+
+.text {
+    position: absolute;
+    width:30vw;
+    font-size:64px;
+    color:white;
+    top:35%;
+    left :47%;
+}
+
+.subHeading {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .text {
+        position: absolute;
+        width:30vw;
+        font-size:64px;
+        color:white;
+        top:35%;
+        left :20%;
+    }
+}
+
+
+.heading {
+    font-size: 100px;
 }
