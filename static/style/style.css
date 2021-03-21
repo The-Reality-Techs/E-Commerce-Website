@@ -15,7 +15,6 @@ time, mark, audio, video {
     padding: 0;
     border: 0;
     font-size: 100%;
-    font: inherit;
     vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -34,16 +33,15 @@ blockquote, q {
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-    content: '';
     content: none;
 }
 table {
     border-collapse: collapse;
     border-spacing: 0;
-}
+}/*
 1
 css browser reset stylesheetCSS By Good Gerbil on Jan 27 2021
-/* http://meyerweb.com/eric/tools/css/reset/
+ http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -53,20 +51,54 @@ h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 de
 
+
+
 body {
-    margin:0px;
-    padding: 0px;
+    margin:0;
+    padding: 0;
+}
+.collapse {
+    background-color: rgba(120,120,120,0.001);
+}
+.mainImage {
+    height:100vh;
+    position:absolute;
+}
+nav {
+    position: fixed;
+    background-color: transparent;
+    top :0;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    padding:40px;
+    margin-top:40px;
+    margin-left:60px;
+}
+
+.nav-link {
+    font-family: 'Montserrat', sans-serif;
+    margin-right:40px;
+    margin-top:40px;
+}
+
+.nav-link-white {
+    color: white;
+}
+.nav-link-black {
+    color : black;
 }
 
 .pink {
     background-color:#f5c1db;
     min-height:100vh;
     margin-top:0px;
+    overflow: hidden;
     padding:0;
+    float:left;
     width:50vw;
 }
-
-nav {
-    background-color: rgba(0,0,0,0);
-
+header {
+  background-color: lightgrey;
 }
