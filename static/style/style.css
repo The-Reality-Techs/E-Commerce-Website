@@ -133,8 +133,8 @@ header {
     }
 
     .pink {
-        width: 100vw;
-        overflow: hidden
+        width: 100%;
+        overflow: hidden;
     }
     .nav-link-black {
         color : white;
