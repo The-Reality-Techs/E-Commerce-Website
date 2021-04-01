@@ -69,21 +69,22 @@ header {
 }
 nav {
     position: absolute;
-    background-color:#94001a52;
+    background-color:#9f001f;
     top :0;
 }
 
 .navbar-brand {
     font-family: 'Montserrat', sans-serif;
-    padding:40px;
-    margin-top:40px;
+    padding:10px;
+    margin-top:10px;
     margin-left:5%;
 }
 
 .nav-link {
     font-family: 'Montserrat', sans-serif;
-    margin-right:40px;
-    margin-top:40px;
+    margin-right:10px;
+    padding :0 20px ;
+    margin-top:10px;
 }
 
 .nav-link-white {
