@@ -68,8 +68,8 @@ header {
     height:100vh;
 }
 nav {
-    position: fixed;
-    background-color: transparent;
+    position: absolute;
+    background-color:#94001a52;
     top :0;
 }
 
