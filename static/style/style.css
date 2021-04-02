@@ -94,7 +94,48 @@ nav {
     color : black;
 }
 
+h3 .vr {
+    writing-mode: vertical-lr;
+    -webkit-transform: rotate(
+            0deg
+    );
+    -ms-transform: rotate(0deg);
+    transform: rotate(
+            0deg
+    );
+    text-orientation: sideways;
+    text-align: center;
+    text-orientation: sideways;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    right: 20px;
+    height: 100%;
+    font-family: roboto condensed,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-size: 18px;
+    z-index: 1;
+}
 
+.big {
+    font-family: lato,Arial,sans-serif;
+    font-size: 100px;
+    color: rgba(0,0,0,.04);
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 400;
+    top : -70px;
+    position: relative;
+    text-transform: uppercase;
+    font-family: roboto condensed,Arial,sans-serif;
+    letter-spacing: 6px;
+}
 
 header {
   background-color: white;
