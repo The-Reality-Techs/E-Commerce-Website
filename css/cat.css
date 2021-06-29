@@ -1,0 +1,121 @@
+nav {
+  background-color: #9f001f;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container-fluid {
+  padding: 5px 80px 5px 80px;
+  font-family: "Montserrat";
+}
+
+.navbar-toggler {
+  color: #fff;
+  border: none;
+}
+
+.navbar-brand-head {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.nav-link-white,
+.navbar-brand-head {
+  color: #fff;
+}
+
+.navLink{
+  padding-top: 12px;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.loginbtn {
+  border: none;
+  color: #9f001f;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: solid 1px #ffffff;
+}
+
+.loginbtn:hover {
+  border: none;
+  color: #ffffff;
+  background-color: #9f001f;
+  border: solid 1px #ffffff;
+}
+
+.cart {
+  text-decoration: none;
+  color: #ffffff;
+}s
+
+.cart:hover {
+  text-decoration: none;
+  color: #ebe8e9;
+}
+
+.Card{
+    background-color:rgba(0, 0, 0, 0.04)
+}
+
+.big {
+  padding-top: 3rem;
+  font-family: lato, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.04);
+  font-weight: 900;
+  font-size: 7.5rem;
+  letter-spacing: 1px;
+}
+
+h2 {
+  color: #585858;
+  font-size: 2rem;
+  font-weight: 400;
+  top: -85px;
+  position: relative;
+  text-transform: uppercase;
+  font-family: roboto condensed, Arial, sans-serif;
+  letter-spacing: 6px;
+}
+
+.left{
+    padding-left: 5%;
+    padding-right: 3%;
+}
+
+.middle{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.right{
+    padding-right: 5%;
+    padding-left: 3%;
+}
+
+h6{
+    margin: 0;
+}
+
+.btN{
+    text-align: right;
+}
+
+.cardcart {
+    text-decoration: none;
+    color:#bf1b3b;
+    font-size: 1.7rem;
+}
+
+.cardcart:hover {
+    text-decoration: none;
+    color:#9f001f;
+    font-size: 1.7rem;
+}

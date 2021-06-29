@@ -1,0 +1,120 @@
+nav {
+  background-color: #9f001f;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.container-fluid {
+  padding: 5px 80px 5px 80px;
+  font-family: "Montserrat";
+}
+
+.navbar-toggler {
+  color: #fff;
+  border: none;
+}
+
+.navbar-brand-head {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.nav-link-white,
+.navbar-brand-head {
+  color: #fff;
+}
+
+.navLink {
+  padding-top: 12px;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.loginbtn {
+  border: none;
+  color: #9f001f;
+  font-weight: bolder;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: solid 1px #ffffff;
+}
+
+.loginbtn:hover {
+  border: none;
+  color: #ffffff;
+  background-color: #9f001f;
+  border: solid 1px #ffffff;
+}
+
+.cart {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.cart:hover {
+  text-decoration: none;
+  color: #ebe8e9;
+}
+
+.mainImage {
+  position: relative;
+  top: 0px;
+  height: 100%;
+}
+
+.img-text {
+  color: #fff;
+  line-height: 1.2;
+  width: 30%;
+  position: absolute;
+  top: 35%;
+  left: 42%;
+  font-weight: 500;
+  font-size: 6rem;
+}
+
+.big {
+  font-family: lato, Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.04);
+  font-weight: 900;
+  font-size: 100px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  top: -70px;
+  position: relative;
+  text-transform: uppercase;
+  font-family: roboto condensed, Arial, sans-serif;
+  letter-spacing: 6px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 780px) {
+  .mainImage {
+    width: 100vw;
+  }
+  .img-text {
+    color: #fff;
+    line-height: 1;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    font-weight: 500;
+    font-size: 3.8rem;
+  }
+  .nav-link-black {
+    color: #fff;
+  }
+}

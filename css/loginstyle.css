@@ -1,0 +1,96 @@
+body {
+  background-color: #ed8471;
+  background-image: url("https://transparenttextures.com/patterns/low-contrast-linen.png");
+}
+
+.navbar {
+  padding-top: 1%;
+  margin-left: 180px;
+  margin-right: 170px;
+}
+
+.container {
+  margin-left: auto;
+}
+
+.navbar-toggler {
+  color: #fff;
+  border: none;
+}
+
+.navbar-brand-head {
+  color: #fff;
+  font-size: 1.7rem;
+}
+
+.nav-link-white,
+.navbar-brand-head {
+  color: #fff;
+}
+
+.nav-item {
+  padding: 0 5px;
+}
+
+.Form {
+  margin-top: 2%;
+}
+
+.container {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+.row {
+  border-radius: 5%;
+  background-color: white;
+}
+
+.img-container {
+  border-radius: 10%;
+  position: relative;
+}
+
+.lgnimg {
+  border-radius: 10%;
+  position: absolute;
+  bottom: 0px;
+}
+
+.logindetails {
+  border-radius: 6%;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  background-color: #e3e1dd;
+}
+
+.Contact-icon {
+  width: 20%;
+  margin-bottom: 1rem;
+}
+
+form {
+  padding: 8%;
+  margin-top: 2%;
+}
+
+h1 {
+  color: #6c757d;
+}
+
+.form-control {
+  height: 2.5rem;
+  border-radius: 1rem;
+}
+
+.btn {
+  border-radius: 1rem;
+}
+
+.btn:hover {
+  background-color: #54504f;
+}
+
+.signup {
+  text-decoration: none;
+}
