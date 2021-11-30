@@ -1,7 +1,7 @@
 <?php
 $isLoggedIn = false;
 session_start();
-if (isset($_SESSION['loggedin']) || $_SESSION['loggedin'] == true) {
+if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
   $isLoggedIn = true;
 }
 
@@ -141,7 +141,7 @@ $result3 = mysqli_query($conn, $sql3);
                   text-white text-shadow-1
                 ">
                 <h2 class="card-text pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Short title, long jacket
+                  Exclusive Fashion wear for men
                 </h2>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
@@ -151,13 +151,13 @@ $result3 = mysqli_query($conn, $sql3);
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>Earth</small>
+                  
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3"></use>
                     </svg>
-                    <small>3d</small>
+                    
                   </li>
                 </ul>
               </div>
@@ -188,7 +188,7 @@ $result3 = mysqli_query($conn, $sql3);
                   text-white text-shadow-1
                 ">
                 <h2 class="card-text pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Much longer title that wraps to lines
+                  Trending Collection for Women
                 </h2>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
@@ -198,13 +198,13 @@ $result3 = mysqli_query($conn, $sql3);
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>Pakistan</small>
+                    
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#calendar3"></use>
                     </svg>
-                    <small>4d</small>
+                    
                   </li>
                 </ul>
               </div>
@@ -228,7 +228,7 @@ $result3 = mysqli_query($conn, $sql3);
               ">
               <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
                 <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">
-                  Another longer title belongs here
+                  Best Deals for Kids
                 </h2>
                 <ul class="d-flex list-unstyled mt-auto">
                   <li class="me-auto">
@@ -238,7 +238,7 @@ $result3 = mysqli_query($conn, $sql3);
                     <svg class="bi me-2" width="1em" height="1em">
                       <use xlink:href="#geo-fill"></use>
                     </svg>
-                    <small>California</small>
+                    
                   </li>
                   <li class="d-flex align-items-center">
                     <svg class="bi me-2" width="1em" height="1em">
@@ -271,22 +271,22 @@ $result3 = mysqli_query($conn, $sql3);
           <div class="carousel-item active">
             <img src="images/1.jpg" height="500px" class="d-block w-100 carousel-image" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
+              <h5>Best Deals at Best Prices</h5>
+              <p>Get The best deals for Season clothings</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="images/2.jpg" height="500px" class="d-block w-100 " alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>Offers You Can't resist</h5>
+              <p>We have the best offers which you can't ignore</p>
             </div>
           </div>
           <div class="carousel-item">
             <img src="images/3.jpg" height="500px" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>Buy More Save More</h5>
+              <p>Best deals on large purchases.</p>
             </div>
           </div>
         </div>
